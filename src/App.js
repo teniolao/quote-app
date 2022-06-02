@@ -36,10 +36,9 @@ function App() {
         {isLoading ? <p>Matin Luther King Jr</p> : ""}
         <p>{result.author}</p>
 
-        <div className="btn-container">
-          <button onClick={handleClick}>change quote</button>
-        </div>
+        <div className="btn-container"></div>
       </div>
+      <button onClick={handleClick}>change quote</button>
     </div>
   );
 }
